@@ -1,0 +1,3 @@
+// build time:Fri Nov 08 2019 14:48:46 GMT+0800 (GMT+08:00)
+function escapeContent(e){return"<!--�"+(cache.push(e)-1)+"-->"}const rEscapeContent=/<escape(?:[^>]*)>([\s\S]*?)<\/escape>/g,placeholder="�",rPlaceholder=/(?:<|&lt;)\!--\uFFFD(\d+)--(?:>|&gt;)/g,cache=[];hexo.extend.filter.register("before_post_render",function(e){return e.content=e.content.replace(rEscapeContent,function(e,t){return escapeContent(t)}),e}),hexo.extend.filter.register("after_post_render",function(e){return e.content=e.content.replace(rPlaceholder,function(){return cache[arguments[1]]}),e});
+//rebuild by neat 

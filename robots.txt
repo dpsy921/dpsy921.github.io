@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Allow: /posts/
+Allow: /archieves/
+Disallow: /books/
+Disallow: /photos/
+Disallow: /categories/
+Disallow: /messageboard/
+Disallow: /schedule/
+Disallow: /tags/
+Disallow: /top/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /dist/
+
+Sitemap: https://www.danpinsuiyue.com/sitemap.xml
+Sitemap: https://www.danpinsuiyue.com/baidusitemap.xml
